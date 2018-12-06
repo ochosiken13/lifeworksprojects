@@ -1,0 +1,67 @@
+li{
+  list-style: none;
+}
+
+body{
+  font-family: 'Avenir Next','Helvetica Neue','Helvetica','Arial','Cambria', ;
+}
+
+header img{
+  margin: 0 auto;
+  width: 1300px;
+  display: block;
+}
+
+.skill-wrapper{
+  width: 1300px;
+  padding: 50px 0 100px 0;
+  color: black;
+  text-align: center;
+}
+
+h1{
+  font-size: 65px;
+  margin-top: 100px;
+  border-bottom: 5px solid black;
+  opacity: 0.9;
+}
+
+.skillset{
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+
+.skillset a{
+  display: block;
+  padding: 15px 15px 25px 15px;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.skillset a:hover{
+  background-color: #fd0140;
+  border-radius: 8px;
+  color: white;
+  text-decoration: underline;
+}
+
+main{
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 30px;
+  color: black;
+}
+
+main h3{
+  border-bottom: 3px solid #32ff99;
+  opacity: 0.8;
+}
+
+main p {
+  font-size: 25px;
+  opacity: 0.8;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
